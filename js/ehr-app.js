@@ -1,4 +1,4 @@
-const API_URL = "https://your-backend.onrender.com/api";
+const API_URL = "https://ehr-backed.onrender.com";
 
 async function loadPatients() {
   const res = await fetch(`${API_URL}/patients`);
